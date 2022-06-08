@@ -1,0 +1,85 @@
+/* header */
+header .navbar{
+    width: 950px;
+    margin: 0 auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+header .navbar .header_menu a{
+    color: #8d94ad;
+    vertical-align: top;
+    margin-right: 25px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.2s;
+    border-radius: 4px;
+    height: 30px;
+    line-height: 30px;
+}
+
+header .navbar .header_menu a:hover{
+    color:red;
+    
+}
+header .navbar .header_settings .bar-phones{
+    color: #313338;
+    vertical-align: top;
+    margin-right: 25px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.2s;
+    border-radius: 4px;
+    height: 30px;
+    line-height: 30px;
+}
+header .navbar .header_settings .favourities::before{
+    content: '';
+    background-image: url(/assets/images/header/heart-black-shape-8e341e9025ab491ac3d29e831015b2cd229d25553de57587eb5a0e034addbba4.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 7px;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle;
+}
+header .navbar .header_settings .entrance::before{
+    content: '';
+    background-image: url(/assets/images/header/profile-user-695fb94555ab1dac96804da0b65cd6918d9ec2664a0c807b97eebb091fd92abd.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 7px;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .navbar .header_settings a{
+    color: #8d94ad;
+    vertical-align: top;
+    margin-right: 25px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.2s;
+    border-radius: 4px;
+    height: 30px;
+    line-height: 30px;
+}
+
+header .navbar .header_settings a:hover{
+    color:red;
+    
+}
+header .navbar .header_settings span{
+    color: #313338;
+    vertical-align: top;
+    margin-right: 25px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.2s;
+    border-radius: 4px;
+    height: 30px;
+    line-height: 30px;
+}
